@@ -1,1 +1,3 @@
 <%= turbo_stream.remove @note %>
+
+<%= turbo_stream.update "message", inline: '<div class="bg-red-100 text-red-700 p-4 rounded-md mb-4 border border-red-300"><p>Note was successfully deleted</p></div>' %>
