@@ -13,3 +13,5 @@
     <%= render @notes %>
   <% end %>
 </div>
+
+<%= turbo_stream_from "notes" %>
